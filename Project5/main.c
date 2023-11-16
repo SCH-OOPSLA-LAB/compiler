@@ -26,9 +26,9 @@ FILE * code;
 
 
 int EchoSource = TRUE;
-int TraceScan = FALSE;
-int TraceParse = TRUE;
-int TraceAnalyze = TRUE;
+int TraceScan = TRUE;
+int TraceParse = FALSE;
+int TraceAnalyze = FALSE;
 int TraceCode = FALSE;
 
 int Error = FALSE;

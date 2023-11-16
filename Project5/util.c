@@ -10,10 +10,15 @@ void printToken(TokenType token, const char* tokenString)
     switch (token)
     {
     case ELSE:
+       
     case IF:
+       
     case INT:
+ 
     case RETURN:
+   
     case VOID:
+    
     case WHILE:
         fprintf(listing, "reserved word: %s\n", tokenString);
         break;

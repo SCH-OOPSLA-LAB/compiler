@@ -73,5 +73,6 @@
     <None Include="sort.cm">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="example.cm" />
   </ItemGroup>
 </Project>

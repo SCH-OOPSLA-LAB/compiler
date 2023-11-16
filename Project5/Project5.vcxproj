@@ -146,6 +146,7 @@
     <None Include="cminus.l" />
     <None Include="cminus.output" />
     <None Include="cminus.y" />
+    <None Include="example.cm" />
     <None Include="gcd.cm" />
     <None Include="Makefile" />
     <None Include="sort.cm" />
