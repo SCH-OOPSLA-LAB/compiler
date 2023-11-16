@@ -1,0 +1,283 @@
+﻿  analyze.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(33,3): error C2061: 구문 오류: 식별자 'TreeNode'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(38,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(45,3): error C2061: 구문 오류: 식별자 'BucketList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(46,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2061: 구문 오류: 식별자 'globalScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2061: 구문 오류: 식별자 'scopeList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,23): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2061: 구문 오류: 식별자 'scopeStack'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,24): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2061: 구문 오류: 식별자 'newScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,21): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,27): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,35): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2146: 구문 오류: ')'이(가) 'type' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2081: 'ExpType': 정식 매개 변수 목록에 있는 이름이 잘못되었습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,59): error C2059: 구문 오류: ','
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,89): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2061: 구문 오류: 식별자 'currScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,17): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2061: 구문 오류: 식별자 'st_lookup'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,27): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2061: 구문 오류: 식별자 'st_lookup_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,28): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2061: 구문 오류: 식별자 'st_lookup_all_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,37): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(41,3): warning C4013: 'st_insert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(134,15): warning C4013: 'st_lookup_all_scope'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(134,56): warning C4047: '==': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(137,24): error C2065: 'BucketList': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(137,24): error C2146: 구문 오류: ';'이(가) 'list' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(137,29): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(138,27): error C2065: 'list': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(138,29): error C2223: '->type' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,19): error C2065: 'Scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,19): error C2146: 구문 오류: ';'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,25): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,27): warning C4013: 'newScope'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,36): warning C4013: 'currScope'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(154,49): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(155,18): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(155,20): error C2223: '->parent' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(156,13): warning C4013: 'pushScope'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(156,28): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(176,15): warning C4013: 'st_lookup_scope'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(176,52): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(181,35): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(181,15): error C2198: 'strcmp': 호출에 인수가 너무 적습니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(182,36): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(185,17): error C2065: 'Scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(185,17): error C2146: 구문 오류: ';'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(185,23): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(186,16): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(186,18): error C2223: '->parent' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(187,26): error C2065: 'scope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(195,15): warning C4013: 'st_lookup'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(195,46): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(206,34): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(219,50): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(224,34): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(237,46): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(242,34): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(250,48): warning C4047: '!=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(255,36): error C2223: '->name' 왼쪽은 구조체/공용 구조체를 가리켜야 합니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(326,15): error C2065: 'globalScope': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\analyze.c(328,24): error C2065: 'globalScope': 선언되지 않은 식별자입니다.
+  main.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(33,3): error C2061: 구문 오류: 식별자 'TreeNode'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(38,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(45,3): error C2061: 구문 오류: 식별자 'BucketList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(46,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2061: 구문 오류: 식별자 'globalScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2061: 구문 오류: 식별자 'scopeList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,23): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2061: 구문 오류: 식별자 'scopeStack'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,24): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2061: 구문 오류: 식별자 'newScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,21): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,27): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,35): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2146: 구문 오류: ')'이(가) 'type' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2081: 'ExpType': 정식 매개 변수 목록에 있는 이름이 잘못되었습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,59): error C2059: 구문 오류: ','
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,89): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2061: 구문 오류: 식별자 'currScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,17): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2061: 구문 오류: 식별자 'st_lookup'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,27): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2061: 구문 오류: 식별자 'st_lookup_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,28): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2061: 구문 오류: 식별자 'st_lookup_all_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,37): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\main.c(43,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\OSL\source\repos\Project5\Project5\main.c(45,6): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\OSL\source\repos\Project5\Project5\main.c(46,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  parse.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(33,3): error C2061: 구문 오류: 식별자 'TreeNode'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(38,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(45,3): error C2061: 구문 오류: 식별자 'BucketList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(46,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2061: 구문 오류: 식별자 'globalScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2061: 구문 오류: 식별자 'scopeList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,23): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2061: 구문 오류: 식별자 'scopeStack'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,24): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2061: 구문 오류: 식별자 'newScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,21): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,27): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,35): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2146: 구문 오류: ')'이(가) 'type' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2081: 'ExpType': 정식 매개 변수 목록에 있는 이름이 잘못되었습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,59): error C2059: 구문 오류: ','
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,89): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2061: 구문 오류: 식별자 'currScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,17): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2061: 구문 오류: 식별자 'st_lookup'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,27): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2061: 구문 오류: 식별자 'st_lookup_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,28): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2061: 구문 오류: 식별자 'st_lookup_all_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,37): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(47,40): error C2065: 'UNTIL': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(66,17): error C2065: 'REPEAT': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(68,15): error C2065: 'READ': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(69,16): error C2065: 'WRITE': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(66,5): error C2051: case 식이 상수가 아닙니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(68,5): error C2051: case 식이 상수가 아닙니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(69,5): error C2051: case 식이 상수가 아닙니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(93,37): error C2065: 'RepeatK': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(94,15): error C2065: 'REPEAT': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(96,14): error C2065: 'UNTIL': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(112,35): error C2065: 'ReadK': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(113,13): error C2065: 'READ': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(121,36): error C2065: 'WriteK': 선언되지 않은 식별자입니다.
+C:\Users\OSL\source\repos\Project5\Project5\parse.c(122,14): error C2065: 'WRITE': 선언되지 않은 식별자입니다.
+  scan.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(33,3): error C2061: 구문 오류: 식별자 'TreeNode'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(38,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(45,3): error C2061: 구문 오류: 식별자 'BucketList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(46,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2061: 구문 오류: 식별자 'globalScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2061: 구문 오류: 식별자 'scopeList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,23): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2061: 구문 오류: 식별자 'scopeStack'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,24): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2061: 구문 오류: 식별자 'newScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,21): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,27): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,35): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2146: 구문 오류: ')'이(가) 'type' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2081: 'ExpType': 정식 매개 변수 목록에 있는 이름이 잘못되었습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,59): error C2059: 구문 오류: ','
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,89): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2061: 구문 오류: 식별자 'currScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,17): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2061: 구문 오류: 식별자 'st_lookup'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,27): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2061: 구문 오류: 식별자 'st_lookup_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,28): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2061: 구문 오류: 식별자 'st_lookup_all_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,37): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\scan.c(28,15): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  symtab.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.c(134,14): warning C4101: 'bucket' :참조되지 않은 지역 변수입니다.
+  util.c
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(33,3): error C2061: 구문 오류: 식별자 'TreeNode'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(37,11): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(38,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(45,3): error C2061: 구문 오류: 식별자 'BucketList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(46,1): error C2059: 구문 오류: '}'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2061: 구문 오류: 식별자 'globalScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(49,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2061: 구문 오류: 식별자 'scopeList'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(52,23): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2061: 구문 오류: 식별자 'scopeStack'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,14): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(56,24): error C2059: 구문 오류: '['
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2061: 구문 오류: 식별자 'newScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(59,21): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,22): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(61,27): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2146: 구문 오류: ')'이(가) 'scope' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2061: 구문 오류: 식별자 'scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,30): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(62,35): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2146: 구문 오류: ')'이(가) 'type' 식별자 앞에 없습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2081: 'ExpType': 정식 매개 변수 목록에 있는 이름이 잘못되었습니다.
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2061: 구문 오류: 식별자 'type'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,55): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,59): error C2059: 구문 오류: ','
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(69,89): error C2059: 구문 오류: ')'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2061: 구문 오류: 식별자 'currScope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(72,17): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2061: 구문 오류: 식별자 'st_lookup'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(76,27): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2061: 구문 오류: 식별자 'st_lookup_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,7): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(78,28): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2061: 구문 오류: 식별자 'st_lookup_all_scope'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,12): error C2059: 구문 오류: ';'
+C:\Users\OSL\source\repos\Project5\Project5\symtab.h(79,37): error C2059: 구문 오류: '<parameter-list>'
+C:\Users\OSL\source\repos\Project5\Project5\util.c(106,16): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\OSL\source\repos\Project5\Project5\util.c(110,8): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  코드를 생성하고 있습니다...
