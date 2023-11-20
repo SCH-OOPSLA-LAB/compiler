@@ -2,9 +2,9 @@
 #include "globals.h"
 
 
-#define NO_PARSE TRUE
+#define NO_PARSE FALSE
 
-#define NO_ANALYZE FALSE
+#define NO_ANALYZE TRUE
 
 #define NO_CODE FALSE
 
@@ -25,9 +25,9 @@ FILE * listing;
 FILE * code;
 
 
-int EchoSource = TRUE;
-int TraceScan = TRUE;
-int TraceParse = FALSE;
+int EchoSource = FALSE;
+int TraceScan = FALSE;
+int TraceParse = TRUE;
 int TraceAnalyze = FALSE;
 int TraceCode = FALSE;
 
@@ -53,7 +53,9 @@ int main( int argc, char * argv[] )
 #if NO_PARSE
   while (getToken()!=ENDFILE);
 #else
-  syntaxTree = parse();
+  
+  syntaxTree = Parse();
+  
   if (TraceParse) {
     fprintf(listing,"\nSyntax tree:\n");
     printTree(syntaxTree);

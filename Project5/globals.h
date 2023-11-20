@@ -30,9 +30,9 @@ typedef enum
 
     IF, THEN, ELSE, END, INT, VOID, RETURN, WHILE,
 
-    ID, NUM, LE, RE, GE, GT, NE,
+    ID, NUM, LE, RE, GE, GT, NE, ASSIGN
 
-    ASSIGN, EQ, LT, RT, PLUS, MINUS, TIMES, OVER, LPAREN, RPAREN, SEMI, LBRACKET, RBRACKET, COMMA, LBLOCK, RBLOCK,
+   , EQ, LT, RT, PLUS, MINUS, TIMES, OVER, LPAREN, RPAREN, SEMI, LBRACKET, RBRACKET, COMMA, LBLOCK, RBLOCK,
 } TokenType;
 
 extern FILE* source;
@@ -43,23 +43,21 @@ extern int lineno;
 
 
 
-typedef enum { StmtK, ExpK, DeclK } NodeKind;
-typedef enum { SelectionK, IterationK, ExpressionK, CompoundK, ReturnK } StmtKind;
-typedef enum { OpK, ConstK, IdK, TypeK, ArrIdK, CallK, CalcK } ExpKind;
-typedef enum { VarK, FunK, ArrVarK, ArrParamK, ParamK } DeclKind;
+
+
+typedef enum { StmtK, ExpK, DecK } NodeKind;
+typedef enum { SelectionK, IterationK, ReturnK, CallK, CompoundK } StmtKind;
+typedef enum { OpK, IdK, ConstK, AssignK } ExpKind;
+typedef enum { VarK, ArrVarK, FunK} DecKind;
+
 
 /* ExpType is used for type checking */
-typedef enum { Void, Integer, IntegerArray } ExpType;
+typedef enum { Void, Integer, IntegerArray, Function} ExpType;
 
 #define MAXCHILDREN 3
 
-struct ScopeListRec;
 
-typedef struct ArrayAttribute {
-    TokenType type;
-    char* name;
-    int size;
-} ArrAttr;
+
 
 typedef struct treeNode {
     struct treeNode* child[MAXCHILDREN];
@@ -70,19 +68,22 @@ typedef struct treeNode {
     union {
         StmtKind stmt;
         ExpKind exp;
-        DeclKind decl;
+        DecKind dec;
+        
     } kind;
 
-    union {
-        TokenType op;
-        TokenType type;
-        int val;
-        char* name;
-        ArrAttr arr;
-        struct ScopeListRec* scope;
-    } attr;
-
-    ExpType type;
+    TokenType  op;
+    int        val;
+    char* name;
+    ExpType    functionReturnType;
+    ExpType    variableDataType;
+    ExpType         expressionType;
+    int isParameter;
+    int isGlobal;
+    struct treeNode* declaration;
+    int assemblyAreaSize;
+    int localSize;
+    int offset;
 } TreeNode;
 
 
