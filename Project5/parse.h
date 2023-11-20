@@ -11,6 +11,6 @@
 /* Function parse returns the newly 
  * constructed syntax tree
  */
-TreeNode * parse(void);
+TreeNode * Parse(void);
 
 #endif

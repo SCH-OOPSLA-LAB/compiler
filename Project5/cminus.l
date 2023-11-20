@@ -44,7 +44,7 @@ whitespace  [ \t]+
 ")"             {return RPAREN;}
 "["             {return LBRACKET;}
 "]"             {return RBRACKET;}
-"{"             {return LBRACE;}
+"{"             {return LBLOCK;}
 "}"             {return RBRACE;}
 {number}        {return NUM;}
 {identifier}    {return ID;}

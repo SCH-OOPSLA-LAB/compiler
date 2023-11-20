@@ -194,8 +194,8 @@ void printSymTabRows(Scope scope) {
         fprintf(listing,"%-10s", l->name);
 
         switch (node->nodekind) {
-          case DeclK:
-          switch (node->kind.decl) {
+          case DecK:
+          switch (node->kind.dec) {
             case FunK:
             fprintf(listing, "Function         ");
             break;
@@ -205,11 +205,7 @@ void printSymTabRows(Scope scope) {
             case ArrVarK:
             fprintf(listing, "Array Variable   ");
             break;
-            case ParamK:
-            fprintf(listing, "Parameter        ");
-            break;
-            case ArrParamK:
-            fprintf(listing, "Array Parameter  ");
+           
             break;
             default:
             break;
