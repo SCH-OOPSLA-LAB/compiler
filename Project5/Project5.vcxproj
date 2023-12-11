@@ -134,6 +134,7 @@
     <ClCompile Include="parse.c" />
     <ClCompile Include="scan.c" />
     <ClCompile Include="symtab.c" />
+    <ClCompile Include="test.c" />
     <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>

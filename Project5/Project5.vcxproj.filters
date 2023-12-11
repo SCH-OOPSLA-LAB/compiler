@@ -39,6 +39,9 @@
     <ClCompile Include="cgen.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="scan.h">
