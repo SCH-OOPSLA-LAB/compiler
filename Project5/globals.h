@@ -32,7 +32,8 @@ typedef enum
 
     ID, NUM, LE, RE, GE, GT, NE, ASSIGN
 
-   , EQ, LT, RT, PLUS, MINUS, TIMES, OVER, LPAREN, RPAREN, SEMI, LBRACKET, RBRACKET, COMMA, LBLOCK, RBLOCK,
+   , EQ, LT, RT, PLUS, MINUS, TIMES, OVER, LPAREN, RPAREN, SEMI
+    , LBRACKET, RBRACKET, COMMA, LBLOCK, RBLOCK,
 } TokenType;
 
 extern FILE* source;
@@ -51,14 +52,15 @@ typedef enum { OpK, IdK, ConstK, AssignK } ExpKind;
 typedef enum { VarK, ArrVarK, FunK} DecKind;
 
 
-/* ExpType is used for type checking */
+
 typedef enum { Void, Integer, IntegerArray, Function} ExpType;
 
 #define MAXCHILDREN 3
-
-
-
-
+typedef struct arrayAttr {
+    TokenType type;
+    char* name;
+    int size;
+} ArrayAttr;
 typedef struct treeNode {
     struct treeNode* child[MAXCHILDREN];
     struct treeNode* sibling;
@@ -71,7 +73,14 @@ typedef struct treeNode {
         DecKind dec;
         
     } kind;
-
+    union {
+        TokenType op;
+        TokenType type;
+        int val;
+        char* name;
+        ArrayAttr arr;
+        struct ScopeRec* scope;
+    } attr;
     TokenType  op;
     int        val;
     char* name;

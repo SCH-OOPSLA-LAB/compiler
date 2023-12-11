@@ -120,16 +120,16 @@ void printTree(TreeNode* tree)
                 break;
             case IdK:
 
-                fprintf(listing, "[Id \"%s", tree->name);
+                fprintf(listing, "[Var \"%s", tree->name);
                 if (tree->val != 0) /* array indexing */
                     fprintf(listing, "[%d]", tree->val);
                 fprintf(listing, "\"]\n");
                 break;
             case ConstK:
-                fprintf(listing, "[const \"%d\"]\n", tree->val);
+                fprintf(listing, "[NUM \"%d\"]\n", tree->val);
                 break;
             case AssignK:
-                fprintf(listing, "[Assign]\n");
+                fprintf(listing, "[Expression]\n");
                 break;
             default:
                 fprintf(listing, "<<<unknown exp type>>>\n");

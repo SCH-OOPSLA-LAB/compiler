@@ -1,18 +1,11 @@
-/****************************************************/
-/* File: parse.c                                    */
-/* The parser implementation for the TINY compiler  */
-/* Compiler Construction: Principles and Practice   */
-/* Kenneth C. Louden                                */
-/****************************************************/
+
 
 #include "globals.h"
 #include "util.h"
 #include "scan.h"
 #include "parse.h"
 
-static TokenType token; /* holds current token */
-
-/* function prototypes for recursive calls */
+static TokenType token; 
 static TreeNode* declaration_list(void);
 static TreeNode* declaration(void);
 static TreeNode* var_declaration(void);
@@ -92,7 +85,7 @@ static TreeNode* declaration_list(void)
 
     
 
-        tree = declaration();
+    tree = declaration();
     ptr = tree;
 
     while (token != ENDFILE)
@@ -475,8 +468,6 @@ TreeNode* iteration_stmt(void)
     TreeNode* expr;
     TreeNode* stmt;
 
-
-  
     match(WHILE);
     match(LPAREN);
     expr = exp();
@@ -704,12 +695,8 @@ static TreeNode* ident_statement(void)
     TreeNode* expr = NULL;
     TreeNode* arguments = NULL;
     char* identifier=NULL;
-
-
-    
-
-        if (token == ID)
-            identifier = copyString(tokenString);
+    if (token == ID)
+        identifier = copyString(tokenString);
     match(ID);
 
     if (token == LPAREN)
