@@ -20,6 +20,11 @@
 #define TRUE 1
 #endif
 
+#ifdef DEBUG
+#define DEBUG_ONLY(foo) foo
+#else
+#define DEBUG_ONLY(foo) /* foo */
+#endif
 
 #define MAXRESERVED 6
 
@@ -41,7 +46,6 @@ extern FILE* listing;
 extern FILE* code;
 
 extern int lineno;
-
 
 
 
