@@ -1,123 +1,88 @@
-/*********************************************************************
- *  NAME:          Benjamin Fowler
- *  NUMBER:        02251132
- *  SUBJECT:       Modern Compiler Construction
- *  INSTRUCTOR:    Dr Wayne Kelly
- *********************************************************************
- *  MODULE:        SymTab.h
- *  PURPOSE:       Declares the public portions of the SymTab module.
- *  DATE STARTED:  7th May, 2000.
- *  LAST EDITED:   8th May, 2000.
- *
- *  REVISION HISTORY:
- *
- *  7th May 2000  Created module
- *  8th May 2000  Wrote hash table with high-water-mark support
- *  8th May 2000  Refined and reworked module interface
- *
- *********************************************************************/
+/****************************************************/
+/* File: symtab.h                                   */
+/* Symbol table interface for the TINY compiler     */
+/* (allows only one symbol table)                   */
+/* Compiler Construction: Principles and Practice   */
+/* Kenneth C. Louden                                */
+/****************************************************/
 
+#ifndef _SYMTAB_H_
+#define _SYMTAB_H_
 
-#ifndef SYMTAB_H
-#define SYMTAB_H
+#include "globals.h"
 
-#include "Globals.h"
+/* SIZE is the size of the hash table */
+#define SIZE 211
 
- /*********************************************************************
-  * Type definitions that need to be visible from the outside
-  */
+/* the list of line numbers of the source
+* code in which a variable is referenced
+*/
+typedef struct LineListRec {
+  int lineno;
+  struct LineListRec * next;
+} * LineList;
 
-  /*
-   * NOTE: for some reason, Louden maintains a list of line numbers for his
-   *        identifier references in his symbol table.  I reckon that it's
-   *        completely useless, so I'm ditching that functionality for the
-   *        time being.
-   */
+/* The record in the bucket lists for
+* each variable, including name,
+* assigned memory location, and
+* the list of line numbers in which
+* it appears in the source code
+*/
+typedef struct BucketListRec {
+  char * name;
+  TreeNode * treeNode;
+  LineList lines;
+  int memloc; /* memory location for variable */
+  struct BucketListRec * next;
+  ExpType type;
+} * BucketList;
 
-typedef struct hashNode {
-    char* name;        /* the name of the identifier */
-    TreeNode* declaration;  /* pointer to the symbol's dec. node */
-    int           lineFirstReferenced;   /* self-explanatory */
-    struct hashNode* next;      /* next node on this bucket chain */
-} HashNode, * HashNodePtr;
+/* Scope List */
+typedef struct ScopeListRec {
+  char * name; // function name
+  int nestedLevel;
+  struct ScopeListRec *parent;
+  BucketList hashTable[SIZE]; /* the hash table */
+} * Scope;
 
+// global scope to cover function definitions
+Scope globalScope;
 
+/* Scope List to output */
+static Scope scopeList[SIZE];
+static int sizeOfList = 0;
+
+/* Stack to deal with scope */
+static Scope scopeStack[SIZE];
+static int topScope = 0;
+
+Scope newScope(char * scopeName);
+void popScope(void);
+void pushScope(Scope scope);
+void insertScopeToList(Scope scope);
+
+/* Procedure st_insert inserts line numbers and
+* memory locations into the symbol table
+* loc = memory location is inserted only the
+* first time, otherwise ignored
+*/
+void st_insert(char * scopeName, char * name, ExpType type, TreeNode * treeNode, int loc);
+
+// return current scope
+Scope currScope();
 /*
- *  Keep track of how deep the scopes are in the symbol table - used for
- *   reporting.
+ * Function st_lookup returns the BucketList or NULL if not found
  */
-extern int scopeDepth;
+BucketList st_lookup(char * name);
 
+Scope st_lookup_scope(char * scopeName);
+BucketList st_lookup_all_scope(char * name);
+void insertLines(char* name, int lineno);
 
-/*
- * NAME:    initSymbolTable()
- * PURPOSE: Ensures that everything is initialised and setup properly prior
- *           to first use.
+/* Procedure printSymTab prints a formatted
+ * listing of the symbol table contents
+ * to the listing file
  */
-
-void initSymbolTable();
-
-
-/*
- * NAME:    insertSymbol()
- * PURPOSE: Inserts line numbers and a TreeNode pointer to an identifier's
- *           declaration.
- */
-
-void insertSymbol(char* name, TreeNode* symbolDefNode, int lineDefined);
-
-
-/*
- * NAME:    symbolAlreadyDeclared()
- * PURPOSE: Checks to see if the given symbol is already defined in the
- *           current scope.
- *
- *          In C-, it is illegal to declare an identifier more than once
- *           within a given scope.
- */
-
-int symbolAlreadyDeclared(char* name);
-
-
-/*
- * NAME:    lookupSymbol()
- * PURPOSE: Retrieves a HashNode* pointer for a supplied identifier that
- *           points to the declaration node for the identifier. If the
- *           operaton failed, NULL is returned.
- */
-
-HashNodePtr lookupSymbol(char* name);
-
-
-/*
- * NAME:    dumpCurrentScope()
- * PURPOSE: Dumps out the current scope in the symbol table.
- */
-
-void dumpCurrentScope();
-
-
-/*
- * NAME:    newScope()
- * PURPOSE: Creates a new scope by creating a new "high water mark" on
- *           the symbol table.  This facilitates the destruction of all
- *           symbol table entries for a local scope on a subsequent
- *           call to endScope().
- */
-
-void newScope();
-
-
-/*
- * NAME:    endScope()
- * PURPOSE: Deletes all the local variables in the local scope by deleting
- *           all symbol table entries up to a high-water mark created by
- *           an earlier call to newScope().
- */
-
-void endScope();
-
+void printSymTab(FILE * listing);
 
 #endif
-
-/* END OF FILE */

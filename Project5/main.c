@@ -16,7 +16,7 @@
 #else
 #include "parse.h"
 #if !NO_ANALYZE
-#include "analyze.h"
+//#include "analyze.h"
 #if !NO_CODE
 //#include "cgen.h"
 #endif
@@ -33,7 +33,7 @@ FILE* code;
 int EchoSource = FALSE;
 int TraceScan = FALSE;
 int TraceParse = TRUE;
-int TraceAnalyze = TRUE;
+int TraceAnalyze = FALSE;
 int TraceCode = TRUE;
 
 int Error = FALSE;
@@ -93,9 +93,6 @@ main(int argc, char* argv[])
     {
         printf("#include stdio.h\n");
         genCode(syntaxTree);
-        buildSymbolTable(syntaxTree);
-
-        genCode(syntaxTree);
     }
 #endif
 #endif
@@ -103,9 +100,6 @@ main(int argc, char* argv[])
     fclose(source);
     return 0;
 }
-
-
-
 void genStmt(TreeNode* t) {
     TreeNode* p1 = NULL;
     TreeNode* p2 = NULL;
