@@ -1,3 +1,2 @@
-﻿  parse.c
-C:\Users\OSL\Desktop\compiler\Project5\parse.c(428,47): warning C4020: 'syntaxError': 실제 매개 변수가 너무 많습니다.
+﻿  main.c
   Project5.vcxproj -> C:\Users\OSL\Desktop\compiler\x64\Debug\Project5.exe

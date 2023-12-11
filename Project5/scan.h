@@ -1,7 +1,4 @@
-/****************************************************/
-/* File: scan.h                                     */
-/* The scanner interface for the C- compiler        */
-/****************************************************/
+#include "globals.h"
 
 #ifndef _SCAN_H_
 #define _SCAN_H_
