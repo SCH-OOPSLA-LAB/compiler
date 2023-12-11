@@ -91,7 +91,7 @@ main(int argc, char* argv[])
 #if !NO_CODE
     if (!Error)
     {
-        printf("#include stdio.h\n");
+        printf("#include <stdio.h>\n");
         genCode(syntaxTree);
     }
 #endif
