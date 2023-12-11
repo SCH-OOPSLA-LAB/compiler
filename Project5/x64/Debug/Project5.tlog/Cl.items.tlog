@@ -1,9 +1,8 @@
-C:\Users\OSL\Desktop\compiler\Project5\analyze.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\analyze.obj
-C:\Users\OSL\Desktop\compiler\Project5\cgen.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\cgen.obj
-C:\Users\OSL\Desktop\compiler\Project5\code.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\code.obj
-C:\Users\OSL\Desktop\compiler\Project5\main.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\main.obj
-C:\Users\OSL\Desktop\compiler\Project5\parse.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\parse.obj
-C:\Users\OSL\Desktop\compiler\Project5\scan.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\scan.obj
-C:\Users\OSL\Desktop\compiler\Project5\symtab.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\symtab.obj
-C:\Users\OSL\Desktop\compiler\Project5\test.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\test.obj
-C:\Users\OSL\Desktop\compiler\Project5\util.c;C:\Users\OSL\Desktop\compiler\Project5\x64\Debug\util.obj
+C:\comp\compiler\Project5\analyze.c;C:\comp\compiler\Project5\x64\Debug\analyze.obj
+C:\comp\compiler\Project5\cgen.c;C:\comp\compiler\Project5\x64\Debug\cgen.obj
+C:\comp\compiler\Project5\code.c;C:\comp\compiler\Project5\x64\Debug\code.obj
+C:\comp\compiler\Project5\main.c;C:\comp\compiler\Project5\x64\Debug\main.obj
+C:\comp\compiler\Project5\parse.c;C:\comp\compiler\Project5\x64\Debug\parse.obj
+C:\comp\compiler\Project5\scan.c;C:\comp\compiler\Project5\x64\Debug\scan.obj
+C:\comp\compiler\Project5\symtab.c;C:\comp\compiler\Project5\x64\Debug\symtab.obj
+C:\comp\compiler\Project5\util.c;C:\comp\compiler\Project5\x64\Debug\util.obj
